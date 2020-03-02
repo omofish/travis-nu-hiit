@@ -1,0 +1,1 @@
+export const to2DP = (value) => (Number(Math.round(parseFloat(value + 'e' + 2)) + 'e-' + 2).toFixed(2))
