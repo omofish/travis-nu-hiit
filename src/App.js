@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "semantic-ui-css/semantic.min.css";
+import firebase from "firebase/app";
 import "firebase/database";
 import 'firebase/auth';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
